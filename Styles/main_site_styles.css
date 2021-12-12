@@ -2,6 +2,36 @@
     box-sizing: border-box;
 }
 
-h1 {
-    color: green;
+body {
+    background-color:darkslategray;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+nav {
+    padding: 20px 0;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 22px;
+    width: 200px;
+}
+
+.header-links {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    position: absolute;
+    top: 80px;
 }
